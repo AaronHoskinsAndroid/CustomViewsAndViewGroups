@@ -1,0 +1,16 @@
+Custom Views and View Groups
+    - Extending existing widgets (views)
+        - Extend the widgets class
+        - Implement customizations
+    - Create a custom view from scratch
+        - Extend the view class
+        - Override 2 Methods
+            - onDraw
+                - Paint the to a canvas
+            -onMeasure
+                - Adjustments and other considerations for parent layout
+                        size
+    - Custom View Groups (Compound Views)
+        - Extend the ViewGroup class desired (LinearLayout, Constraint, ...)
+        - override the onLayout Method
+            - Dictate positions of child views

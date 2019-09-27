@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <examples.aaronhoskins.com.customviewsandviewgroups.CircleView
+        android:id="@+id/cirCustomView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:radius="300"
+        app:fillColor="@color/colorPrimary"
+        app:xPosition="500"
+        app:yPosition="500"/>
+
+    <examples.aaronhoskins.com.customviewsandviewgroups.CompoundView
+        android:id="@+id/cvLikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Next Activity"
+        android:background="@drawable/color_grad"
+        android:textColor="#ffffff"
+        android:onClick="onClick"/>
+
+</LinearLayout>
